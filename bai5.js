@@ -1,9 +1,8 @@
-let a =+prompt("Nhap 1 so tuy y");
-let b = Math.random(1,10);
-if(a>b){
-    console.log("Lon hon so random");
-}else if(a<b){
-    console.log("Nho hon so random");
-}else{
-    console.log("bang so ramdom");
+let n =+prompt('Nhập n')
+let count=0;
+for(let i=0;i<n;i++){
+    if(i%2==0){
+        count++;
+    }
 }
+console.log(`Có ${count} số chẵn`)
